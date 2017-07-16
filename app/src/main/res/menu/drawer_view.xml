@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <!-- -->
+        <item
+            android:id="@+id/nav_first_home"
+            android:icon="@drawable/ic_home_black_24dp"
+
+            android:checked="true"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_courses"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="@string/my_courses" />
+        <item
+            android:id="@+id/nav_saved"
+            android:icon="@drawable/bookmark_check"
+            android:title="@string/saved" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/account_box"
+            android:title="@string/account" />
+
+        <item
+            android:id="@+id/nav_second_settings"
+            android:icon="@drawable/settings"
+            android:title="@string/settings" />
+
+        <item
+            android:id="@+id/nav_forth_aboutus"
+            android:icon="@drawable/help_circle"
+            android:title="@string/about_us" />
+        <item
+            android:id="@+id/nav_fifth_logout"
+            android:icon="@drawable/logout"
+            android:title="@string/logout" />
+
+    </group>
+
+</menu>
